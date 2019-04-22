@@ -1,0 +1,17 @@
+.social {
+    border-radius: 50%;
+    color: maroon;
+    border: solid;
+    padding: 10px;
+    width: 100px;
+}
+
+.social:hover {
+    background-color: maroon;
+    color: white;
+}
+
+.employee {
+    border-radius: 50%;
+    width: 100px;
+}
