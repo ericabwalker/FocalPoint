@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="main.css">
-        <title>Focal Point Productions</title>
-        <!-- Image and text -->
-        <nav class="navbar navbar-dark bg-dark">
-          <a class="navbar-brand" href="/index.html">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Focal Point Productions</title>
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="/index.html">
             <img src="/images/FPlogo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
             Focal Point
-          </a>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-item nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
-                  <a class="nav-item nav-link" href="/studio.html">Studio</a>
-                  <a class="nav-item nav-link" href="/work.html">Work</a>
-                  <a class="nav-item nav-link active" href="#">About</a>
-                  <a class="nav-item nav-link" href="/contact.html">Contact</a>
+                    <a class="nav-item nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="/studio.html">Studio</a>
+                    <a class="nav-item nav-link" href="/work.html">Work</a>
+                    <a class="nav-item nav-link active" href="#">About</a>
+                    <a class="nav-item nav-link" href="/contact.html">Contact</a>
                 </div>
-              </div>
-            </nav>
+            </div>
         </nav>
-    </head>
-    
-        <body>
+    </nav>
+</head>
+
+<body class="container">
+    <div class="topPhoto" id="about">
         <h1>About Us</h1>
-        <img src="images/team.jpg" class="img-fluid" alt="Responsive image">
-        <h2>A multi-purpose studio</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
-              <img class="employee" src="images/doug.JPG">
+    </div>
+    <!--        <img src="images/team.jpg" class="img-fluid headerPhoto" alt="Responsive image">-->
+    <h2>Focal Point Team</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div class="card-deck">
+        <div class="card">
+            <img src="images/doug.JPG" class="card-img-top" alt="Doug Jefferson">
+            <div class="card-body">
+                <h5 class="card-title">Doug Jefferson</h5>
+                <p class="card-text">Doug started Focal Point almost 35 years ago</p>
             </div>
-            <div class="col-sm">
-              <img class="employee" src="images/erica.JPG">
-            </div>
-          </div>
         </div>
-    </body>
-    <footer>
-        <p>(502) 638-1900 | 1432 Highland Avenue Louisville, KY 40204</p>
-        <a class="social" href="https://www.youtube.com/user/focalpointproduction">
-            <img src="images/YouTube.png">
-        </a>
-        <a class="social" href="https://www.facebook.com/FocalPointProductions/?tn-str=k*F">
-            <img src="images/facebook.png">
-        </a>
-        <a class="social" href="https://twitter.com/gotofocalpoint">
-            <img src="images/twitter.png">
-        </a>
-    
-    </footer>
+        <div class="card">
+            <img src="images/erica.jpg" class="card-img-top" alt="Erica Walker">
+            <div class="card-body">
+                <h5 class="card-title">Erica Walker</h5>
+                <p class="card-text">Erica has been Focal Point's Producer for over seven years. </p>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="footer">
+    <p>(502) 638-1900 | 1432 Highland Avenue Louisville, KY 40204</p>
+    <a href="https://www.youtube.com/user/focalpointproduction" target="_blank">
+        <i class="fab fa-youtube fa-2x fa-fw social"></i>
+    </a>
+    <a href="https://www.facebook.com/FocalPointProductions/?tn-str=k*F" target="_blank">
+        <i class="fab fa-facebook-square fa-2x fa-fw social"></i>
+    </a>
+    <a href="https://twitter.com/gotofocalpoint" target="_blank">
+        <i class="fab fa-twitter fa-2x fa-fw social"></i>
+    </a>
+</footer>
+<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js" integrity="sha384-rUOIFHM3HXni/WG5pzDhA1e2Js5nn4bWudTYujHbbI9ztBIxK54CL4ZNZWwcBQeD" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js" integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS" crossorigin="anonymous"></script>
     
 </html> 
