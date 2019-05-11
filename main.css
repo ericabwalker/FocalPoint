@@ -11,35 +11,31 @@
 .social:hover {
     background-color: maroon;
     color: white;
-    border: solid maroon; 
+    border: solid maroon;
 }
 
+/*Styling for the employee photos on the About page*/
 .employee {
     border-radius: 50%;
     height: 100px;
     width: 115px;
 }
 
-.pagePhoto {
-    width: 100%;
-}
-
-.headerPhoto {
-/*    opacity: 0.5;*/
-}
-
+/*Footer styling*/
 .footer {
     display: flex;
     justify-content: center;
     padding: inherit;
     border-top: 5px solid #800000;
     border-bottom: 10px solid #800000;
+    margin-top: 30px;
 }
 
 .footer p {
     margin: 10px 10px 0 0;
 }
 
+/*Styling for the photos and h1 text on each page*/
 .topPhoto {
     background-repeat: no-repeat;
     background-size: cover;
@@ -56,14 +52,44 @@
     text-shadow: 2px 2px gray;
 }
 
-#index2 {
-  background-image: url(images/studio.jpg);  
+/*Changes the image on each page*/
+#index {
+    background-image: url(images/exterior.jpg);
 }
 
 #about {
     background-image: url(images/team.jpg);
 }
 
+#work {
+    background-image: url(images/work.jpg);
+}
+
+#studio {
+    background-image: url(images/studio.jpg);
+}
+
+#contact {
+    background-image: url(images/soundboard.jpg);
+}
+
+/*Bootstrap styling for employee pictures*/
 .card-deck {
     margin-bottom: 20px;
+}
+
+/*This will make the h1 text smaller and reposition it on smaller devices and it will also make the photo that is on the top of each page smaller*/
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .topPhoto h1 {
+        padding-top: 30px;
+        font-size: 3em;
+    }
+
+    .topPhoto {
+        min-height: 100px;
+    }
+
+    #demoReel {
+        width: 90%;
+    }
 }
